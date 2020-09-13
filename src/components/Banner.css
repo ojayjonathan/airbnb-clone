@@ -1,0 +1,36 @@
+.banner{
+    background:url(./hotel-room.jpg) center center;
+    height: 80vh;
+    position: relative;
+}
+.banner__info{
+    background-color:black;
+    color: white;
+    max-width: 300px;
+    padding: 80px 50px 40px 50px;
+}
+.banner__info > button{
+    background-color: #ff7779;
+    text-transform: inherit;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.banner__info > button:hover{
+    background-color: white;
+    color:#ff7779 ;
+}
+.banner__info > h5{
+    margin-top: 10px;
+}
+.banner__searchButton{
+    font-weight: 900 !important;
+    text-transform:  inherit !important;
+    color: #ff7779 !important;
+    background-color: white !important;
+}
+.banner__search{
+    display: flex;
+    flex-direction: column;
+    
+}

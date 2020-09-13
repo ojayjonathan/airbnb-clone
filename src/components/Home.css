@@ -1,0 +1,27 @@
+.home_section{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    
+}
+
+.top{
+    overflow-x: scroll;
+    display: flex;
+}
+.section2{
+    background-color: #000000;
+    color: #fff !important;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.section2 .card{
+  background-color: #222222 !important;
+}
+
+@media (max-width:720px){
+      .home_section{
+        flex-direction: column;
+    }
+}
